@@ -1,0 +1,75 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #f0f8ff; /* Light blue background */
+  color: #000080; /* Dark blue text */
+  line-height: 1.6;
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #ffffff; /* White container */
+  padding: 20px;
+  border: 1px solid #add8e6; /* Light blue border */
+  border-radius: 10px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  color: #000080; /* Dark blue */
+}
+
+header p {
+  font-size: 1.2rem;
+  color: #4682b4; /* Steel blue */
+}
+
+.posts {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.post {
+  background-color: #e6f0ff; /* Very light blue */
+  padding: 15px;
+  border: 1px solid #add8e6; /* Light blue border */
+  border-radius: 5px;
+}
+
+.post h2 {
+  font-size: 1.5rem;
+  color: #000080; /* Dark blue */
+}
+
+.post p {
+  font-size: 1rem;
+  color: #4682b4; /* Steel blue */
+  margin: 10px 0;
+}
+
+.like-button {
+  background-color: #add8e6; /* Light blue */
+  color: #000080; /* Dark blue */
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.like-button:hover {
+  background-color: #87ceeb; /* Sky blue */
+}
